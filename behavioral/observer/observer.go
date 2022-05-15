@@ -6,8 +6,8 @@ type Event struct {
 	Data int
 }
 
-
-// Observer defines a standard interface to listen for a specific event.
+// Observer defines a standard interface
+// to listen for a specific event.
 type Observer interface {
 	// OnNotify allows to publsh an event
 	OnNotify(Event)

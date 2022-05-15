@@ -9,7 +9,10 @@ type observer struct {
 }
 
 func (o *observer) OnNotify(e Event) {
-	fmt.Printf("observer %d recieved event %d\n", o.id, e.Data)
+	fmt.Printf(
+		"observer %d recieved event %d\n",
+		o.id, e.Data,
+	)
 }
 
 type notifier struct {
