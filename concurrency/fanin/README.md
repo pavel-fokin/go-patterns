@@ -1,4 +1,4 @@
-# FanIn Pattern
+# Fan-In Pattern
 
 __Fan-in__ is a concurrency pattern that allows merging input of several goroutines into one.
 
