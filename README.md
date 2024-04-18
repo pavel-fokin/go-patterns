@@ -11,3 +11,6 @@ This repo keeps different approaches and patterns for `Go` that I find helpful.
 ## Concurrency
 
   - [Concurrent Tasks](./concurrency/tasks/) (concurrency/tasks)
+
+## Web
+  - [Gracefull Shutdown](./web/gracefulshutdown/) (web/gracefulshutdown)
